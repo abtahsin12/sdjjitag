@@ -1,0 +1,574 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>tahsin</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+       *{
+           box-sizing: border-box;
+       }
+       body{
+           margin: 0;
+       }
+
+       .col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+   [class*="col-"]{
+       float: left;
+   }
+
+
+
+
+      .navbar{
+          background-color: #00aff0;
+          color: green;
+          padding: 20px 9px;
+          color: lawngreen;
+      }
+      .navbar-image{
+          height: 120px;
+          width: 100px;
+          position: relative;
+          left: 15px;
+      }
+      a{
+        
+          text-decoration: none;
+      }
+      .navbar-contact a{
+          color: lightgreen;
+          font-size: 1.3rem;
+          text-transform: uppercase;
+          padding: 25px 10px;
+          position: relative;
+          top:30px;
+      }
+
+      .navbar-contact a:hover{
+          background-color: lightpink;
+      }
+
+
+
+
+
+      .navbar::after{
+          clear: both;
+          content: '';
+          display: table;
+      }
+
+
+
+
+        .profile{
+            text-align: center;
+            padding: 200px 100px;
+        }
+        .profile-discription {
+
+        }
+        .profile-discription h2 {
+
+               font-size: 2rem;
+        }
+        .profile-discription p {
+
+       color: gray;
+}
+             
+
+             .profile-top-image{
+                 position: relative;
+                 left: 250px;
+                 transition: transform 2.9s;
+             }
+             .profile-top-image:hover{
+                 transform: rotate(360deg);
+             }
+
+             .profile-below-image{
+                 position: relative;
+                 right: 300px;
+                 transition: transform 2.9s;
+             }
+             .profile-below-image:hover{
+                 transform: rotate(360deg);
+             }
+
+
+             .profile::after{
+                   clear: both;
+                   content: '';
+                       display: table;
+             }
+
+
+             .about-me{
+                  background-color: cadetblue;
+                  text-align: center;
+                  padding: 70px 50px;
+                  color: white;
+             }
+             .dotted-hr{
+                border: 7px dotted white;
+                border-bottom: none;
+                width: 30px;
+               
+               
+             }
+             .about-me h2{
+                 text-transform: uppercase;
+             }
+             .about-me-image{
+                 height: 300px;
+                 width: 280px;
+                 border-radius: 50px;
+                 text-align: left;
+                 position: relative;
+                 top: 80px;
+             }
+             .about-me-discription{
+                position: relative;
+                left: 200px;
+                font-size: 1.8rem;
+                top: 80px;
+
+             }
+
+             .about-me-discription a{
+                 color: white;
+             }
+
+             .cricbuzz-btn{
+                 background-color: teal;
+                 padding: 10px 14px;
+                 font-size: 1.2rem;
+                 border: none;
+             }
+             .cricbuzz-btn:hover{
+                 background-color: white;
+             }
+
+
+             .about-me::after{
+                clear: both;
+                   content: '';
+                       display: table;
+             }
+
+
+
+             .My-Goals{
+                 padding: 120px 90px;
+             }
+             .card{
+                 background-color: gray;
+                 margin: 15px 15px;
+                 padding: 10px 11px;
+                 text-align: center;
+             }
+             .card:hover{
+                 box-shadow: 10px 12px 14px 14px black;
+             }
+             .card-image-size{
+                 height: 120px;
+                 width: 100px;
+             }
+             .card-head h2{
+                 background-color: brown;
+             }
+
+
+             .card-html-css-java{
+
+             }
+             .card-html-css-java li{
+                 text-transform: uppercase;
+                 font-weight: bolder;
+                 list-style-type: none;
+                 position: relative;
+                 margin: 50px 0px;
+             }
+             .card-html-css-java li::before{
+                 content: '';
+                 background-color: orangered;
+                 width: 100%;
+                 height: 20px;
+                 position: absolute;
+                 left: 0px;
+                 top:calc(100% + 8px);
+                 animation-duration: 2.1s;
+                 animation-delay: 0.9s;
+                 animation-fill-mode: forwards;
+                 animation-timing-function: ease-in-out;
+                 animation-iteration-count: 3;
+             }
+             .card-html-css-java li::after{
+                 content: '';
+                 background-color: green;
+                 width: 0;
+                 height: 20px;
+                 position: absolute;
+                 left: 0px;
+                 top:calc(100% + 8px);
+                 animation-duration: 2.1s;
+                 animation-delay: 0.9s;
+                 animation-fill-mode: forwards;
+                 animation-timing-function: ease-in-out;
+                 animation-iteration-count: 3;
+             }
+             .card-html-css-java li.html::after{
+                 animation-name: as;
+             }
+             @keyframes as{
+                 to{
+                     width: 90%;
+                 }
+             }
+
+
+
+             .My-Goals::after{
+                clear: both;
+                   content: '';
+                       display: table;
+             }
+
+
+
+
+
+
+
+
+
+             .Excelent-Achievent{
+                 padding: 80px 10px;
+                 background-color:#3b5998 ;
+                 color: white;
+                 text-align: center;
+             }
+             input{
+                 width: 320px;
+                 height: 50px;
+                 text-align: center;
+                 font-size: 1.1rem;
+             
+             }
+             textarea{
+                 width: 350px;
+                 text-align: center;
+                 font-size: 1.1rem;
+             }
+
+             .bbtn{
+                 border: none;
+                 margin: 10px 20px;
+                 font-size: 1.3rem;
+                 padding: 5px 6px;
+             }
+
+             .suber-btn{
+                 height: 60px;
+                 width: 80px;
+                 font-size: 2.1rem;
+             }
+             .suber-btn:hover{
+                 background-color: gray;
+             }
+
+             .Excelent-Achievent::after{
+                clear: both;
+                   content: '';
+                       display: table;
+             }
+
+
+
+             .footer{
+                 background-color: black;
+                 padding: 15px;
+                 color: white;
+             }
+             .footer a{
+                 color: blanchedalmond;
+                 text-transform: uppercase;
+                 margin: 0px 15px;
+             }
+             .footer a:hover{
+                 background-color: blue;
+             }
+             .footer::after{
+                 content: '';
+                 display: table;
+                 clear: both;
+             }
+
+
+
+
+
+ 
+
+   
+        </style>
+    </head>
+    <body>
+
+
+
+
+        <div class="navbar">
+            <div class="navbar-logo col-2">
+          <img src="C:\New folder/abc.png" class="navbar-image">
+            </div>
+            <div class="navbar-headeing col-4">
+             <h1>AB Tahsin</h1>
+            </div>
+            <div class="navbar-contact col-6">
+            <a href="#">home</a> 
+             <a href="#ck">about me</a> 
+              <a href="#">skill</a> 
+               <a href="#">contact me</a>
+            </div>
+        </div>
+
+
+
+
+
+       <div class="profile">
+           <img src="C:\New folder/wa.png" class="profile-top-image">
+      <div class="profile-discription">
+       <h2>I am a Computer Teacher<br>&<br>Web Developer</h2>
+       <p>Hi! My Name is AB Tahsin</p>
+      </div>
+      <img src="C:\New folder/wa.png"  class="profile-below-image"  >
+       </div>
+
+
+
+
+
+
+
+       <div class="about-me" id="ck">
+           <h2>About Me</h2>
+           <hr class="dotted-hr">
+        <div class="about-me-image col-6">
+             <img src="C:\New folder/tahsss.jpg" class="about-me-image">
+        </div>
+        <div class="about-me-discription col-6">
+                <strong>I like to call myself " a good computer science Teacher & Web Developer",</strong> 
+                <strong>I made lot of videos on different subjects.My first priority is making the subject easy</strong>  
+                <hr>   
+                <p>Name : AB Tahsin</p><hr>
+                <p>Adress:Dhaka, Bangladesh</p><hr>
+        <p>
+            Email:
+            <a href="mailto:anisul2010s@yahoo.co.uk" target="blank">anisul2010s@yahoo.co.uk</a>
+        </p>
+        <hr>
+        <p>  Phone :
+            <a href="tel:+35846615000"  target="blank"  >+35846615000</a>
+        </p>
+        <hr>
+        <p> Website :
+      <a href="http://www.studywithanis.com"  target="blank"  >www.studywithanis.com</a>
+        </p>
+        <hr>
+        <p>
+            <a href="http://www.cricbuzz.com" target="blank">
+              <button class="cricbuzz-btn">Cricbuzz</button>
+            </a>
+        </p>
+      
+        </div>
+       </div>
+
+
+   
+    
+
+
+
+
+       <div class="My-Goals">
+          <div class="work-experience col-4">
+            <div class="card">
+            <div class="card-logo">
+              <img src="C:\New folder/booksss.jpg" class="card-image-size">
+            </div>
+            <div class="card-head">
+             <h2>work-experience</h2>
+            </div>
+            <div class="card-discription">
+              <ol>
+                  <li>
+                      <strong>I am a good cricketer of Bangladesh Team</strong>
+                      <p>Bangladesh is a small country.</p><hr>
+                  </li>
+                  <li>
+                      <strong>Bangladesh is in Number 8 in ODI Ranking</strong>
+                      <p>Bangladesh cricket team need to develop in Pace bowling Attacked</p>
+                      <hr>
+                  </li>
+              </ol>
+            </div>
+            </div>
+          </div>
+          <div class="Education-Traning col-4">
+            <div class="card">
+                <div class="card-logo">
+                  <img src="C:\New folder/sc.jpg" class="card-image-size">
+                </div>
+                <div class="card-head">
+                 <h2>Education-and-Traning</h2>
+                </div>
+                <div class="card-discription">
+                  <ol>
+                      <li>
+                          <strong>I am a good cricketer of Bangladesh Team</strong>
+                          <p>Bangladesh is a small country.</p><hr>
+                      </li>
+                      <li>
+                          <strong>Bangladesh is in Number 8 in ODI Ranking</strong>
+                          <p>Bangladesh cricket team need to develop in Pace bowling Attacked</p>
+                          <hr>
+                      </li>
+                  </ol>
+                </div>
+                </div>
+            
+          </div>
+          <div class="skills col-4">
+            <div class="card">
+                <div class="card-logo">
+                  <img src="C:\New folder/sk.png" class="card-image-size">
+                </div>
+                <div class="card-head">
+                 <h2>Skills</h2>
+                </div>
+                <div class="card-discription">
+                 <div class="card-html-css-java">
+                 <ol>
+                     <li class="html">HTML</li>
+                     <li>css</li>
+                     <li>java</li>
+                 </ol>
+                 </div>
+                </div>
+                </div>
+          
+          </div>
+       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <div class="Excelent-Achievent">
+        <div class="Acheievent col-3">
+     <h2>Acheievent</h2>
+     <hr class="dotted-hr">
+      <ol>
+          
+            <li>
+                <p>Bangladesh is a southeast Asian country. It stands on the Bay of Bengal, which is on the south and the other three </p>
+            </li>
+            <li>
+                <p>Bangladesh is a southeast Asian country. It stands on the Bay of Bengal, which is on the south and the other three </p>
+            </li>
+            <li>
+                <p>Bangladesh is a southeast Asian country. It stands on the Bay of Bengal, which is on the south and the other three </p>
+            </li>
+          
+      </ol>
+        </div>
+        <div class="Contact-me  col-5">
+        <h2>CONTACT ME</h2>
+        <hr class="dotted-hr">
+        <div class="form-name-email">
+        <form action="mailto:supjds" method="POST" enctype="text/plain">
+            <p><input type="text" placeholder="Your Name" name="Name"></p>
+            <p><input type="text" placeholder="Your Email" name="Email"></p>
+            <p><textarea placeholder="Your Message" rows="10" cols="30" name="Your Message"></textarea></p>
+          <button type="submit" class="bbtn">SEND</button>
+           <button type="reset"  class="bbtn" >RESET</button>
+        </form>
+        </div>
+        </div>
+         <div class="More-Ways-TO-Contact  col-4 ">
+          <h2>More Ways to Contact</h2>
+          <hr class="dotted-hr">
+          <p>
+              <button class="suber-btn"><i class="fa fa-facebook"  onclick="window.open('http://www.facebook.com')"           style="color:#3b5998  ;"  aria-hidden="true"></i></button>
+              <button  class="suber-btn" ><i class="fa fa-youtube-play"  onclick="window.open('http://www.facebook.com')"       style="color:#c4302b ;"    aria-hidden="true"></i></button>
+          </p>
+          <p>
+            <button   class="suber-btn"  ><i class="fa fa-facebook"  onclick="window.open('http://www.facebook.com')"           style="color:#3b5998  ;"  aria-hidden="true"></i></button>
+            <button  class="suber-btn"  ><i class="fa fa-youtube-play"  onclick="window.open('http://www.facebook.com')"       style="color:#c4302b ;"    aria-hidden="true"></i></button>
+        </p>
+        <p>
+            <button   class="suber-btn"   ><i class="fa fa-facebook"  onclick="window.open('http://www.facebook.com')"           style="color:#3b5998  ;"  aria-hidden="true"></i></button>
+            <button   class="suber-btn"  ><i class="fa fa-youtube-play"  onclick="window.open('http://www.facebook.com')"       style="color:#c4302b ;"    aria-hidden="true"></i></button>
+        </p>
+         </div>
+
+       </div>
+
+
+
+
+
+
+
+
+
+       <div class="footer">
+
+        <div class="footer-menu col-6">
+            <a href="#">home</a> 
+            <a href="#">about me</a> 
+             <a href="#">skill</a> 
+              <a href="#">contact me</a>
+        </div>
+        <div class="footer-discription  col-6 ">
+         &copy;AB Tahsin 2020.Developed <span style="color: brown;font-size: 1.3rem;">&#10084;</span>         by AB Tahsin
+        </div>
+
+       </div>
+    
+ 
+
+
+
+
+
+
+
+
+    </body>
+</html>
